@@ -1,0 +1,37 @@
+{
+  "APP": {
+    "BASE_URL": "https://taxi-van-nord-frontend.vercel.app",
+    "BACKEND_BASE_URL": "https://taxi-van-nord-backend.onrender.com",
+    "BUSSINESS_RULES" : {
+      "MINIMUM_PRICE": 30,
+      "FEES_PRICE": 12,
+      "PRICE_BY_KM": 2.4,
+      "WEEKEND_PRICE": 3.05,
+      "HOLIDAYS_PRICE": 3.05,
+      "UNAVAILABLE_DAYS": [{"start": "2024-03-01", "end": "2024-04-01"}],
+      "PRICE_BY_DAY": [{"start": "2024-03-02", "end": "2024-03-31", "price": 5}],
+      "PRICE_BY_HOUR": [{"start":8, "end":8, "price":7}],
+      "EXTRA_PRICE_BY_PASSENGER": 4,
+      "LIMIT_PASSENGERS_BEFORE_EXTRA": 4,
+      "LIMIT_PASSENGERS": 8,
+      "LIMIT_SUITCASES": 7
+    }
+  },
+  "STRIPE": {
+    "BASE_URL": "https://dashboard.stripe.com",
+    "TEST": true,
+    "API_KEY": "pk_test_51OyZsUHZUt2JgNx07k1p9NACjlKoiKj0vAk6bVUTVrieD21lwaiovktNktsYZlwOOYK8wjh9nOu2vTaFu1TdVUmN00RQoaBHkp"
+  },
+  "GOOGLE_MAPS": {
+    "BASE_URL": "https://www.google.com/maps",
+    "API_KEY": "AIzaSyB0dMwfUEn1YQkapbpvZyG-mDQRHLBRJ6Y"
+  },
+  "CALENDAR": {
+    "BASE_URL": "https://calendrier.api.gouv.fr"
+  },
+  "EMAIL_JS": {
+    "SERVICE_ID": "service_f5x5f0b",
+    "TEMPLATE_ID": "template_niudyu2",
+    "API_KEY": "X4Pe-nHi4d44QrjAN"
+  }
+}
