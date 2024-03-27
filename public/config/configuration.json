@@ -10,7 +10,7 @@
       "HOLIDAYS_PRICE": 3.05,
       "UNAVAILABLE_DAYS": [{"start": "2024-03-01", "end": "2024-04-01"}],
       "PRICE_BY_DAY": [{"start": "2024-03-02", "end": "2024-03-31", "price": 2.4}],
-      "PRICE_BY_HOUR": [{"start":8, "end":8, "price":3.05}],
+      "PRICE_BY_HOUR": [{"start":18, "end":8, "price":3.05}],
       "EXTRA_PRICE_BY_PASSENGER": 4,
       "LIMIT_PASSENGERS_BEFORE_EXTRA": 4,
       "LIMIT_PASSENGERS": 8,
