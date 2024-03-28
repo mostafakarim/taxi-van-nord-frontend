@@ -1,7 +1,7 @@
 {
   "APP": {
     "BASE_URL": "https://taxi-van-nord-frontend.vercel.app",
-    "BACKEND_BASE_URL": "https://taxi-van-nord-backend.onrender.com",
+    "BACKEND_BASE_URL": "http://localhost:3001",
     "BUSSINESS_RULES" : {
       "MINIMUM_PRICE": 30,
       "FEES_PRICE": 12,

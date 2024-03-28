@@ -58,28 +58,28 @@
                       voyage unique avec nos services de taxi fiables et ponctuels.<br><br>
                     </p>
                     <div class="flex md:inline-flex flex-col md:flex-row md:gap-4 w-full md:w-max">
-                    <button class="button xl border-2 border-white text-white rounded-lg transition-transform w-full md:w-max mt-6 lg:mt-8 hover:[text-shadow:_0_0_10px_white]" target="_self"
+                    <button class="button xl mb-5 border-2 border-white text-white rounded-lg transition-transform w-full md:w-max mt-6 lg:mt-8 hover:[text-shadow:_0_0_10px_white]" target="_self"
                         @click="scrollTo('.book-online')">Réservez en ligne</button>
                     </div>
-                    <div class="mt-10 text-white flex items-center justify-center">
-                      <span class="flex h-16">
-                        <span class="cursor-pointer mr-4 border-2 border-white text-white rounded-full inline-flex overflow-hidden translate-y-0 hover:animate-wiggle h-16 w-16 relative items-center justify-center">
+                    <div class="text-white flex items-center justify-center">
+                      <span class="flex flex-wrap">
+                        <span class="cursor-pointer mt-5 mr-4 border-2 border-white text-white rounded-full inline-flex overflow-hidden translate-y-0 hover:animate-wiggle max-h-16 max-w-16 relative items-center justify-center">
                           <a href="https://wa.me/+33605625701" title="WhatsApp" target="_blank" class="m-3">
                             <Icon name="simple-icons:whatsapp" color="#ffffff" width="100%" size="40"/>
                           </a>
                         </span>
-                        <span class="cursor-pointer mr-4 border-2 border-white text-white rounded-full inline-flex overflow-hidden hover:animate-wiggle h-16 w-16 relative items-center justify-center">
-                          <a href="mailto:bsn59.pro@gmail.com" title="Email" target="_blank">
+                        <span class="cursor-pointer mt-5 mr-4 border-2 border-white text-white rounded-full inline-flex overflow-hidden hover:animate-wiggle max-h-16 max-w-16 relative items-center justify-center">
+                          <a href="mailto:bsn59.pro@gmail.com" title="Email" target="_blank" class="m-3">
                             <Icon name="material-symbols:mail" color="#ffffff" width="100%" size="40"/>
                           </a>
                         </span>
-                        <span class="cursor-pointer mr-4 border-2 border-white text-white rounded-full inline-flex overflow-hidden hover:animate-wiggle h-16 w-16 relative items-center justify-center">
-                          <a href="https://m.me/youss.bsn" title="Messenger" target="_blank">
+                        <span class="cursor-pointer mt-5 mr-4 border-2 border-white text-white rounded-full inline-flex overflow-hidden hover:animate-wiggle max-h-16 max-w-16 relative items-center justify-center">
+                          <a href="https://m.me/youss.bsn" title="Messenger" target="_blank" class="m-3">
                             <Icon name="uil:facebook-messenger" color="#ffffff" width="100%" size="40"/>
                           </a>
                         </span>
-                        <span class="cursor-pointer border-2 border-white text-white rounded-full p-3 inline-flex overflow-hidden relative items-center justify-center">
-                          <a href="tel:+33605625701" title="Téléphone" target="_blank" class="group flex items-center">
+                        <span class="cursor-pointer mt-5 border-2 border-white text-white rounded-full p-3 inline-flex overflow-hidden relative items-center justify-center">
+                          <a href="tel:+33605625701" title="Téléphone" target="_blank" class="group flex px-5 items-center">
                             <Icon name="material-symbols:call" class="mr-2 group-hover:animate-wiggle" color="#ffffff" width="100%" size="40"/>
                             <span class="drop-shadow-white group-hover:[text-shadow:_0_0_10px_white]">+33605625701</span>
                           </a>
